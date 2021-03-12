@@ -1,3 +1,6 @@
+# JetBrains files
+.idea/
+# more files
 _site/
 node_modules/
 package-lock.json

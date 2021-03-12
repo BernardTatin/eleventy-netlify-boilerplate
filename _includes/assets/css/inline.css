@@ -1,5 +1,5 @@
 :root {
-	--primary: blue;
+	--primary: #a05555;
 	--secondary: white;
 	--background: #FFF0EB;
 }
@@ -193,4 +193,8 @@ button {
 	:root {
 		font-size: 1.1rem;
 	}
+}
+
+main p, main ul, main li {
+	text-align: justify;
 }
