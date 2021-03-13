@@ -8,4 +8,10 @@ eleventyNavigation:
   order: 1
 ---
 
+## what's that?
+
 Some text about code, some text about the seasons and some more text will be added here later.
+
+## about the fonts used here
+
+For titles and header, it's [Darker Grotesque](https://fontsarena.com/darker-grotesque-by-gabriel-lam/), for the rest, it's [Proza Libre](https://fontsarena.com/proza-libre-by-bureau-roffa/). Both are under the [SIL Open Font License](https://fontsarena.com/licenses-explained/). I did not include all the files of their distribution for performance reasons.
