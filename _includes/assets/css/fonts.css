@@ -1,0 +1,36 @@
+/*
+ * fonts.css
+ */
+
+@font-face {
+    font-family: "Header";
+    src: url("/_includes/assets/fonts/DarkerGrotesque/webfont/DarkerGrotesque-Black.woff")
+        format("woff");
+}
+
+@font-face {
+    font-family: "Text";
+    /*src: url("/_includes/assets/fonts/Metropolis-r11/Fonts/Webfonts/WOFF2/Metropolis-Regular.woff2")*/
+    /*    format("woff2");*/
+    src: url("/_includes/assets/fonts/Proza-Libre/Fonts/ProzaLibre-Regular.woff")
+        format("woff");
+}
+
+@font-face {
+    font-family: "Text italic";
+    /*src: url("/_includes/assets/fonts/Metropolis-r11/Fonts/Webfonts/WOFF/Metropolis-RegularItalic.woff")*/
+    /*    format("woff");*/
+    src: url("/_includes/assets/fonts/Proza-Libre/Fonts/ProzaLibre-Italic.woff");
+}
+
+@font-face {
+    font-family: "Text bold";
+    src: url("/_includes/assets/fonts/Proza-Libre/Fonts/ProzaLibre-Medium.woff")
+        format("woff");
+}
+
+@font-face {
+    font-family: "Text bold italic";
+    src: url("/_includes/assets/fonts/Proza-Libre/Fonts/ProzaLibre-MediumItalic.woff")
+        format("woff");
+}
