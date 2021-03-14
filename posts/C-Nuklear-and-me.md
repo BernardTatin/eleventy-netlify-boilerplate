@@ -10,6 +10,10 @@ tags:
 - Nuklear
 ---
 
-Because I have learned C on books before I could use a compiler - yes, Internet was not everywhere and we could only talks with phones - C is a language I really love, even today, even after gloomy nights searching obscure bugs in memory management.
+Because I have learned **C** on books before I could use a compiler - yes, Internet was not everywhere and we could only talks with phones - **C** is a language I really love, even today, even after gloomy nights searching obscure bugs in memory management.
 
-Because [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) seemed perfect and easy to use with C, I choose it to make graphical user interface.
+Because **[Nuklear](https://github.com/Immediate-Mode-UI/Nuklear)** seemed perfect and easy to use with **C**, I choose it to make graphical user interface.
+
+The first contact with **Nuklear** was surprising, it was _too_ easy! It seems that I will keep it for a while.
+
+Well, it is my first post on that blog. 
