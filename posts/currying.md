@@ -1,7 +1,7 @@
 ---
 title: Currying
 metaDescription: Le concept de currification et ce qu'il peut apporter.
-date: 2021-03-14T00:16:39.598Z
+date: 2021-03-14T16:16:39.598Z
 author: John Appleseed
 summary: Le concept de currification et ce qu'il peut apporter. Avec des exemples en Scheme.
 tags:
