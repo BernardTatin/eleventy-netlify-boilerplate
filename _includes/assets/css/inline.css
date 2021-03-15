@@ -12,7 +12,7 @@
 
 /*html,*/
 body {
-	padding: 0px;
+	padding: 10px;
 	margin: auto;
 	font-family: Text, "Fira Mono", sans-serif;
 }
@@ -69,11 +69,6 @@ main,
 footer {
 	margin: auto;
 	padding: 1em;
-}
-
-main {
-	border-left: #999999 solid 2px;
-	border-right: slategrey solid 2px;
 }
 
 main {
