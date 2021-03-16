@@ -10,7 +10,7 @@ eleventyNavigation:
 
 ## about the fonts used here
 
-For titles and header, it's [Darker Grotesque](https://fontsarena.com/darker-grotesque-by-gabriel-lam/), for the rest, it's [Proza Libre](https://fontsarena.com/proza-libre-by-bureau-roffa/). Both are under the [SIL Open Font License](https://fontsarena.com/licenses-explained/). I did not include all the files of their distribution for performance reasons.
+For titles and header, it's [Darker Grotesque](https://fontsarena.com/darker-grotesque-by-gabriel-lam/), for the rest, it's [Jost](https://indestructibletype.com/Jost.html). Both are under the [SIL Open Font License](https://fontsarena.com/licenses-explained/). I did not include all the files of their distribution for performance reasons.
 
 ## about the blog engine
 
