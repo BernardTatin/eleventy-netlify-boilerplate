@@ -32,6 +32,9 @@
   },
   "enginehomepage": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate",
   "homepage": "https://epic-tat1.netlify.app/",
+  "fonts": {
+    "basedir": "/_includes/assets/fonts"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "luxon": "^1.25.0",
