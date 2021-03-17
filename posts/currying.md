@@ -28,8 +28,8 @@ $$x = g ( a ) ( b ) ( c )$$
 
 \- [Wikipedia: Currying](https://en.wikipedia.org/wiki/Currying)
 
-# mise en pratique
-## avec _Scheme_
+# Mise en pratique
+## Avec _Scheme_
 Voici un exemple de code:
 
 ```scheme
@@ -81,4 +81,4 @@ Il affiche:
 25 =? 25
 ```
 
-Et maintenant? En dehors du fait que nous utilisons des _fermetures_, qu'avons nous réellement gagné?
+Et maintenant ? En dehors du fait que nous utilisons des _fermetures_, qu'avons-nous réellement gagné ?

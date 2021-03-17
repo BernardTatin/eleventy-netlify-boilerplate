@@ -11,4 +11,4 @@ tags:
 - no coding
 ---
 
-Lorsque je suis né, la télé n'était pas vraiment répandue. Par contre, la radio, elle, essaimait bien sur tout le territoire depuius certainement une bonne trentaine d'annèes. Et dans ma famille, la tradition de la radio était forte, d'autant plus après des mois, voire des années à écouter _Radio Londres_, l'oreille coincée sur le haut-parleur.
+Lorsque je suis né, la télé n'était pas vraiment répandue. Par contre, la radio, elle, essaimait bien sur tout le territoire depuius certainement une bonne trentaine d'années. Et dans ma famille, la tradition de la radio était forte, d'autant plus après des mois, voire des années à écouter _Radio Londres_, l'oreille coincée sur le haut-parleur.
