@@ -16,8 +16,6 @@
 
 @font-face {
     font-family: "Text italic";
-    /*src: url("{{pkg.fonts.basedir}}/Metropolis-r11/Fonts/Webfonts/WOFF/Metropolis-RegularItalic.otf")*/
-    /*    format("otf");*/
     src: url("{{pkg.fonts.basedir}}/Jost/Jost-400-BookItalic.otf");
 }
 
