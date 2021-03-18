@@ -17,6 +17,6 @@ Et puis mon père aimait vraiment la _Grande Musique_ comme disait ma grand-mèr
 
 Mais dans la semaine, c'était les informations midi et soir, pendant les repas. Jusqu'à ce que la télé arrive. Alors la _pop-music_ de l'époque, je ne l'avais que sur des _33 tours_ ou, de manière très discrète, sur des radios aux émetteurs trop lointains pour que la pluie, le brouillard coupe la transmission.
 
-Malgré les _K7_ qui ont permis tant d'échanges de musiques étranges, inconnues, puis, plus tard les CD inscriptibles, je reviens toujours à la radio. D'ailleurs en écrivant ces lignes, j'écoute une radio, [Offshore Music Radio](https://www.offshoremusicradio.com), qui semble basée à Syracuse dans l'état de New-York.
+Malgré les _K7_ qui ont permis tant d'échanges de musiques étranges, puis, plus tard les CD inscriptibles qui les ont remplacées, je reviens toujours à la radio. D'ailleurs en écrivant ces lignes, j'écoute une radio, [Offshore Music Radio](https://www.offshoremusicradio.com) et qui semble basée à Syracuse dans l'état de New-York.
 
-Je n'aime pas tout ce qui passe, mais il y a toujours des surprises Et puis, pas besoin de changer de CD.
+Si les radios utilisent aujourd'hui parfois d'autres canaux que les ondes électromagnétiques pour me parvenir, ce sont toujours des radios. Je n'aime pas tout ce qui passe, mais il y a toujours des surprises Et puis, pas besoin de changer de CD.
