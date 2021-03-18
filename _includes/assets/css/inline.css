@@ -32,7 +32,6 @@ header {
 main {
 	max-width: 37.5em;
 }
-
 main em, footer em {
 	font-family: "Text italic", sans-serif;
 }
@@ -42,6 +41,25 @@ main strong, footer strong {
 main strong em, footer strong em,
 main em strong, footer em strong {
 	font-family: "Text bold italic", sans-serif;
+}
+
+
+main blockquote {
+	font-family: "Text italic", sans-serif;
+	padding-left: 0.5em;
+	border-left: #990055 solid 2px;
+}
+main blockquote strong {
+	font-family: "Text bold italic", sans-serif;
+}
+main blockquote p em {
+	font-family: "Text", sans-serif;
+	font-style: normal;
+}
+main blockquote strong em,
+main blockquote em strong {
+	font-family: "Text bold", sans-serif;
+	font-style: normal;
 }
 
 p,

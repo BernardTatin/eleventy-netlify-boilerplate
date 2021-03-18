@@ -13,16 +13,11 @@ tags:
 # le concept
 Wikipedia introduit le concept de currification de cette manière:
 
-> In mathematics and computer science, currying is the technique of converting a function that takes multiple arguments into a sequence of functions that each take a single argument. For example, currying a function \\(f\\) that takes three arguments creates three functions:
-
+> In _mathematics_ and _computer science_, **currying** is the technique of ***converting*** a function that takes multiple arguments into a sequence of functions that each take a single argument. For example, currying a function \\(f\\) that takes three arguments creates three functions:
 $$x = f ( a , b , c )$$
-
 > becomes:
-
 $$h = g ( a ), i = h ( b ), x = i ( c )$$
-
 > or called in sequence:
-
 $$x = g ( a ) ( b ) ( c )$$
 
 
