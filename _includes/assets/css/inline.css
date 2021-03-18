@@ -1,5 +1,3 @@
-/*@import "fonts.css";*/
-
 :root {
 	--primary: #a05555;
 	--secondary: white;
@@ -62,9 +60,15 @@ main blockquote em strong {
 	font-style: normal;
 }
 
-p,
 pre,
-code {
+code,
+code[class*="language-"],
+pre[class*="language-"] {
+	font-family: "Computer Modern Typewriter", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	line-height: 1.4;
+}
+
+p {
 	line-height: 1.5;
 }
 

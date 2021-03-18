@@ -9,8 +9,54 @@
 }
 
 @font-face {
+    font-family: 'Computer Modern Typewriter';
+    src: url('{{pkg.fonts.basedir}}/Typewriter/cmuntt.eot');
+    src: url('{{pkg.fonts.basedir}}/Typewriter/cmuntt.eot?#iefix') format('embedded-opentype'),
+    url('{{pkg.fonts.basedir}}/Typewriter/cmuntt.woff') format('woff'),
+    url('{{pkg.fonts.basedir}}/Typewriter/cmuntt.ttf') format('truetype'),
+    url('{{pkg.fonts.basedir}}/Typewriter/cmuntt.svg#cmuntt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Computer Modern Typewriter';
+    src: url('{{pkg.fonts.basedir}}/Typewriter/cmuntb.eot');
+    src: url('{{pkg.fonts.basedir}}/Typewriter/cmuntb.eot?#iefix') format('embedded-opentype'),
+    url('{{pkg.fonts.basedir}}/Typewriter/cmuntb.woff') format('woff'),
+    url('{{pkg.fonts.basedir}}/Typewriter/cmuntb.ttf') format('truetype'),
+    url('{{pkg.fonts.basedir}}/Typewriter/cmuntb.svg#cmuntb') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Computer Modern Typewriter';
+    src: url('{{pkg.fonts.basedir}}/Typewriter/cmunit.eot');
+    src: url('{{pkg.fonts.basedir}}/Typewriter/cmunit.eot?#iefix') format('embedded-opentype'),
+    url('{{pkg.fonts.basedir}}/Typewriter/cmunit.woff') format('woff'),
+    url('{{pkg.fonts.basedir}}/Typewriter/cmunit.ttf') format('truetype'),
+    url('{{pkg.fonts.basedir}}/Typewriter/cmunit.svg#cmunit') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Computer Modern Typewriter';
+    src: url('{{pkg.fonts.basedir}}/Typewriter/cmuntx.eot');
+    src: url('{{pkg.fonts.basedir}}/Typewriter/cmuntx.eot?#iefix') format('embedded-opentype'),
+    url('{{pkg.fonts.basedir}}/Typewriter/cmuntx.woff') format('woff'),
+    url('{{pkg.fonts.basedir}}/Typewriter/cmuntx.ttf') format('truetype'),
+    url('{{pkg.fonts.basedir}}/Typewriter/cmuntx.svg#cmuntx') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
     font-family: "Text";
-    /* _includes/assets/fonts/Jost/Jost-400-Book.otf */
     src: url("{{pkg.fonts.basedir}}/Jost/Jost-400-Book.otf");
 }
 
