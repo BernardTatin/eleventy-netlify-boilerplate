@@ -8,11 +8,11 @@
   {% set css %}
     {% include "assets/css/fonts.css" %}
     {% include "assets/css/inline.css" %}
-    {% include "assets/css/prism.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
+  <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-duotone-earth.css" rel="stylesheet">
+
   {% set js %}
-    {% include "assets/js/prism.js" %}
     {% include "assets/js/inline.js" %}
   {% endset %}
   <script>{{ js | jsmin | safe }}</script>
