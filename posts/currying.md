@@ -10,7 +10,7 @@ tags:
 - Functional programming
 ---
 
-# le concept
+## Le concept
 Wikipedia introduit le concept de currification de cette manière:
 
 > In _mathematics_ and _computer science_, **currying** is the technique of ***converting*** a function that takes multiple arguments into a sequence of functions that each take a single argument. For example, currying a function \\(f\\) that takes three arguments creates three functions:
@@ -20,11 +20,12 @@ $$h = g ( a ), i = h ( b ), x = i ( c )$$
 > or called in sequence:
 $$x = g ( a ) ( b ) ( c )$$
 
+<small><em>
+<a href="https://en.wikipedia.org/wiki/Currying">Wikipedia: Currying</a>
+</em></small>
 
-\- [Wikipedia: Currying](https://en.wikipedia.org/wiki/Currying)
-
-# Mise en pratique
-## Avec _Scheme_
+## Mise en pratique
+### Avec _Scheme_
 Voici un exemple de code:
 
 ```scheme
