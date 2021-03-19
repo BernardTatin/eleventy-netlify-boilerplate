@@ -20,9 +20,9 @@ $$h = g ( a ), i = h ( b ), x = i ( c )$$
 > or called in sequence:
 $$x = g ( a ) ( b ) ( c )$$
 
-<small><em>
-<a href="https://en.wikipedia.org/wiki/Currying">Wikipedia: Currying</a>
-</em></small>
+<cite>
+    <a href="https://en.wikipedia.org/wiki/Currying">Wikipedia: Currying</a>
+</cite>
 
 ## Mise en pratique
 ### Avec _Scheme_

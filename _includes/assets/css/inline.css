@@ -233,3 +233,9 @@ button {
 main p, main ul, main li {
 	text-align: justify;
 }
+
+cite a {
+	display: block;
+	text-align: right;
+	font-size: 0.8em;
+}
