@@ -31,13 +31,16 @@ Voici un exemple de code:
 ```scheme
 #lang racket
 
+;; function with 2 arguments
 (define add (lambda (x y)
               (+ x y)))
 
+;; currying: first fonction
 (define add1 (lambda (x)
                (lambda (y)
                  (+ x y))))
 
+;; currying: second fonction, here, identity function
 (define add2 (lambda (y)
                y))
 
