@@ -109,6 +109,10 @@ pre {
 	margin: .5em 0;
 }
 
+pre code {
+	line-height: 155%;
+}
+
 /* Header Logo (style as h2) */
 header > em {
 	text-align: center;
