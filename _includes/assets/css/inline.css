@@ -1,245 +1,273 @@
 :root {
-	--primary: #a05555;
-	--secondary: white;
-	--background: #FFF0EB;
+    --primary: #a20331;
+    --secondary: white;
+    --border: #4c4a4a;
+    --background: #c0bab2;
+    --welcome: #eeee3a;
 }
 
 *, *:before, *:after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /*html,*/
 body {
-	padding: 10px;
-	margin: auto;
-	font-family: Text, "Fira Mono", sans-serif;
+    padding: 10px;
+    margin: auto;
+    font-family: Text, sans-serif;
 }
 
 body {
-	display: grid;
-	height: 100vh;
-	grid-template-rows: auto 1fr auto;
-	background-color: var(--background);
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    background-color: var(--background);
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Header, "Fira Mono", sans-serif;
+    font-family: Header, sans-serif;
     font-weight: normal;
 }
+
 header {
-	font-family: Header, "Fira Mono", sans-serif;
-	font-weight: bold;
+    font-family: Header, sans-serif;
+    font-weight: bold;
 }
 
 main {
-	max-width: 37.5em;
+    max-width: 30.0em;
 }
 
 main blockquote {
     font-style: italic;
-	font-weight: normal;
-	padding-left: 0.5em;
-	border-left: #990055 solid 2px;
+    font-weight: normal;
+    padding-left: 0.4em;
+    border-left: #990055 solid 2px;
 }
+
 main blockquote strong {
-	font-weight: bold;
-	font-style: italic;
+    font-weight: bold;
+    font-style: italic;
 }
+
 main blockquote p em {
-	font-weight: normal;
-	font-style: normal;
+    font-weight: normal;
+    font-style: normal;
 }
+
 main blockquote strong em,
 main blockquote em strong {
-	font-weight: bold;
-	font-style: normal;
+    font-weight: bold;
+    font-style: normal;
 }
 
 p {
-	line-height: 1.5;
+    line-height: 1.5;
 }
 
 a[href],
 a[href]:visited {
-	color: var(--primary);
+    color: var(--primary);
 }
 
 a[href]:not(:hover) {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 header,
 main,
 footer {
-	margin: auto;
-	padding: 1em;
+    margin: auto;
+    padding: 1em;
 }
+
 footer {
-	text-align: center;
+    text-align: center;
 }
 
 main {
-	padding-bottom: 2em;
+    padding-bottom: 2em;
 }
 
 main :first-child,
 main > article :first-child {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 pre {
-	font-size: 14px;
-	direction: ltr;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	-moz-tab-size: 2;
-	tab-size: 2;
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-	padding: 1em;
-	margin: .5em 0;
+    font-size: 14px;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    -moz-tab-size: 2;
+    tab-size: 2;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    padding: 1em;
+    margin: .5em 0;
 }
 
 pre code {
-	line-height: 155%;
+    line-height: 155%;
 }
 
 /* Header Logo (style as h2) */
+header > em,
+.welcome > p {
+    font-family: "Header Light", sans-serif;
+    letter-spacing: 0.2em;
+    display: block;
+    margin: .67em 0;
+}
 header > em {
-	text-align: center;
-	display: block;
-	font-size: 2em;
-	margin: .67em 0;
-	font-weight: bold;
-	font-style: italic;
+    text-align: left;
+    font-size: 3em;
+}
+.welcome > p {
+    text-align: left;
+    font-size: 2em;
 }
 
 /* Header Nav */
 header nav {
-	margin: auto;
+    margin: auto;
 }
+
 header nav ul {
-	padding: 0;
-	list-style: none;
+    padding: 0;
+    list-style: none;
 }
 
 header nav ul :first-child {
-	margin-left: 0;
+    margin-left: 0;
 }
 
 header nav li {
-	display: inline-block;
-	margin: 0 .25em;
+    display: inline-block;
+    margin: 0 .25em;
 }
 
 header nav li a {
-	padding: .25em .5em;
-	border-radius: .25em;
+    padding: .25em .5em;
+    border-radius: .25em;
 }
 
 header nav li a[href]:not(:hover) {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 header nav li a[data-current="current item"] {
-	background-color: white;
+    background-color: var(--secondary);
 }
 
 /* Posts List */
 article {
-	margin-bottom: 1em;
-	padding-bottom: 1em;
-	border-bottom: 1px solid #eee;
-	border-bottom: 1px solid var(--secondary);
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid var(--border);
+    /*border-bottom: 1px solid var(--secondary);*/
 }
 
 main > section > article > * {
-	margin-top: 0;
-	margin-bottom: .5em;
+    margin-top: 0;
+    margin-bottom: .5em;
 }
 
 /* Post Tags */
 a[rel="tag"],
 a[rel="tag"]:visited {
-	display: inline-block;
-  vertical-align: text-top;
-  text-transform: uppercase;
-	letter-spacing: .1em;
-  font-size: .625em;
-  padding: 0 .5em;
-	line-height: 2em;
-	height: 2em;
-  border: 1px solid var(--secondary);
-	background-color: var(--secondary);
-	color: var(--primary);
-  border-radius: .25em;
-  text-decoration: none;
-	margin: 0 .5em .5em 0;
+    display: inline-block;
+    vertical-align: text-top;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: .625em;
+    padding: 0 .5em;
+    line-height: 2em;
+    height: 2em;
+    border: 1px solid var(--secondary);
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-radius: .25em;
+    text-decoration: none;
+    margin: 0 .5em .5em 0;
 }
 
 a[rel="tag"]:hover {
-	border: 1px solid var(--primary);
-	background-color: var(--primary);
-	color: var(--secondary);
+    border: 1px solid var(--primary);
+    background-color: var(--primary);
+    color: var(--secondary);
 }
 
 a[rel="tag"]:last-child {
-	margin-right: 0;
+    margin-right: 0;
 }
 
 /* Contact Form */
 form {
-  display: grid;
-	padding: 2em 0;
+    display: grid;
+    padding: 2em 0;
 }
 
 form label {
-  display: none;
+    display: none;
 }
 
 input,
 textarea,
 button {
-  width: 100%;
-  padding: 1em;
-  margin-bottom: 1em;
-	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", sans-serif;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    font-size: 1rem;
+    font-family: "Avenir", "Avenir Next", sans-serif;
 }
 
 input,
 textarea {
-	border: 1px solid black;
+    border: 1px solid black;
 }
 
 button {
-	border: 1px solid var(--primary);
-	background-color: var(--primary);
-	color: var(--secondary);
-	cursor: pointer;
+    border: 1px solid var(--primary);
+    background-color: var(--primary);
+    color: var(--secondary);
+    cursor: pointer;
 }
 
-@media screen and (min-width:768px) {
-	:root {
-		font-size: 1.1rem;
-	}
+@media screen and (min-width: 768px) {
+    :root {
+        font-size: 1.1rem;
+    }
 }
 
 main p, main ul, main li {
-	text-align: justify;
+    text-align: justify;
 }
 
 cite a {
-	display: block;
-	text-align: right;
-	font-size: 0.8em;
+    display: block;
+    text-align: right;
+    font-size: 0.8em;
 }
+
+
+/*
+ * c'est vraiment pas beau !
+ */
+/*
+cite:before {
+	content: ">>> ";
+}
+cite:after {
+	content: " >>>";
+}
+*/

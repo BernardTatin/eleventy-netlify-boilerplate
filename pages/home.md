@@ -7,6 +7,7 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-## what's that?
 
-Some text about code, some text about the seasons and some more text will be added here later.
+<div class="welcome">
+<p>Some text about code, some text about the seasons and some more text will be added here later.</p>
+</div>
