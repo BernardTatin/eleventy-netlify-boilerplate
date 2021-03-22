@@ -8,6 +8,4 @@ eleventyNavigation:
   order: 0
 ---
 
-<div class="welcome">
-<p>Some text about <a href="/tags/coding/">code</a>, some text about some <a href="/tags/souvenirs/">souvenirs</a> and some more text will be added here later.</p>
-</div>
+Some text about [code](/tags/coding/), some text about some [souvenirs](/tags/souvenirs/) and some more text will be added here later.

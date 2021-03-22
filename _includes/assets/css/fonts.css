@@ -6,15 +6,21 @@
     font-family: 'Header Light';
     font-style:  normal;
     font-weight: normal;
+    src: url("{{pkg.fonts.basedir}}/Jost/Jost-300-Light.otf");
+    /*
     src: url("{{pkg.fonts.basedir}}/Inter/Inter-ExtraLight.woff2?v=3.15") format("woff2"),
     url("{{pkg.fonts.basedir}}/Inter/Inter-ExtraLight.woff?v=3.15") format("woff");
+    */
 }
 @font-face {
     font-family: 'Header Light';
     font-style:  italic;
     font-weight: normal;
+    src: url("{{pkg.fonts.basedir}}/Jost/Jost-300-LightItalic.otf");
+    /*
     src: url("{{pkg.fonts.basedir}}/Inter/Inter-ExtraLightItalic.woff2") format("woff2"),
     url("{{pkg.fonts.basedir}}/Inter/Inter-ExtraLightItalic.woff") format("woff");
+    */
 }
 
 @font-face {

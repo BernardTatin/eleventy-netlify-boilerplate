@@ -138,6 +138,10 @@ header > em {
     text-align: left;
     font-size: 2em;
 }
+.welcome > p a {
+    font-style: italic;
+}
+
 .summary > p {
     letter-spacing: 0.15em;
     text-align: left;
