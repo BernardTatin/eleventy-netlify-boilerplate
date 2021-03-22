@@ -122,19 +122,26 @@ pre code {
 
 /* Header Logo (style as h2) */
 header > em,
+.summary > p,
 .welcome > p {
     font-family: "Header Light", sans-serif;
-    letter-spacing: 0.2em;
     display: block;
     margin: .67em 0;
 }
 header > em {
+    letter-spacing: 0.2em;
     text-align: left;
     font-size: 3em;
 }
 .welcome > p {
+    letter-spacing: 0.15em;
     text-align: left;
     font-size: 2em;
+}
+.summary > p {
+    letter-spacing: 0.15em;
+    text-align: left;
+    font-size: 1.6em;
 }
 
 /* Header Nav */
