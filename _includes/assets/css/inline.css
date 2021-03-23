@@ -4,6 +4,7 @@
     --border: #4c4a4a;
     --background: #c0bab2;
     --welcome: #eeee3a;
+    font-size: 1.051rem;
 }
 
 *, *:before, *:after {
@@ -255,11 +256,13 @@ button {
     cursor: pointer;
 }
 
+/*
 @media screen and (min-width: 768px) {
     :root {
         font-size: 1.2rem;
     }
 }
+*/
 
 main p, main ul, main li {
     text-align: justify;
