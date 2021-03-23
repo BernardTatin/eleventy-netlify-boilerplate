@@ -4,4 +4,10 @@ section: page
 ---
 <h1>{{ title }}</h1>
 
+{% if summary %}
+    <div class="summary"><p>
+        {{ summary | safe }}
+    </p></div>
+{% endif %}
+
 {{ layoutContent | safe }}

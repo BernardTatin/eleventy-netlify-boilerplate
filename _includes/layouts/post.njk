@@ -11,10 +11,10 @@ section: post
     </small>
   </p>
     {% if summary %}
-    <div class="summary"><p>
-        {{ summary }}
-    </p></div>
-{% endif %}
+        <div class="summary"><p>
+            {{ summary | safe }}
+        </p></div>
+    {% endif %}
 
   {{ layoutContent | safe }}
 
