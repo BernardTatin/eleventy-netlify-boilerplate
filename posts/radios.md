@@ -2,7 +2,7 @@
 title: Radios
 metaDescription: J'ai toujours écouté la radio, je l'écoute encore...
 date: 2021-03-17T17:46:39.598Z
-author: John Appleseed
+author: Bernard Tatin
 summary: Aussi loin que mes souvenirs remontent, la radio était là. Avec le Web, elle vient simplement d'un peu plus loin, mais elle est là.
 tags:
 - radio

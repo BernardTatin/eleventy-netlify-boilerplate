@@ -2,7 +2,7 @@
 title: La typographie de ce site
 metaDescription: La typographie du site
 date: 2021-03-23T16:06:39.598Z
-author: John Appleseed
+author: Bernard Tatin
 summary: J'ai tenté de travailler au mieux la typographie du site. Voici comment.
 tags:
 - typography
