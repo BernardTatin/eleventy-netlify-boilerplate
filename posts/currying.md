@@ -1,17 +1,19 @@
 ---
 title: Currying
-metaDescription: Le concept de currification et ce qu'il peut apporter.
+metaDescription: Le concept de curryfication et ce qu'il peut apporter.
 date: 2021-03-14T16:16:39.598Z
 author: John Appleseed
 summary: Le concept de currification et ce qu'il peut apporter. Avec des exemples en Scheme.
 tags:
 - coding
+- currying
+- closures
 - Scheme
 - Functional programming
 ---
 
 ## Le concept
-Wikipedia introduit le concept de currification de cette manière:
+Wikipedia introduit le concept de curryfication de cette manière:
 
 > In _mathematics_ and _computer science_, **currying** is the technique of ***converting*** a function that takes multiple arguments into a sequence of functions that each take a single argument. For example, currying a function \\(f\\) that takes three arguments creates three functions:
 $$x = f ( a , b , c )$$
