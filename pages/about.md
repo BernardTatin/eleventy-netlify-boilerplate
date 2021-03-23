@@ -11,13 +11,16 @@ eleventyNavigation:
 
 ## about the fonts used here
 
-For titles and header, it's [Darker Grotesque](https://fontsarena.com/darker-grotesque-by-gabriel-lam/) and [Jost](https://indestructibletype.com/Jost.html), for the text, it's [Jost](https://indestructibletype.com/Jost.html). Both are under the [SIL Open Font License](https://fontsarena.com/licenses-explained/). Code samples use [Computer Modern Typewriter](https://checkmyworking.com/cm-web-fonts/), which was created by [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth).
+We have only three fonts:
+- [Jost](https://indestructibletype.com/Jost.html) for all the headers and normal text, under the [SIL Open Font License](https://fontsarena.com/licenses-explained/),
+- [Computer Modern Typewriter](https://checkmyworking.com/cm-web-fonts/), which was created by [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth), is used for code sample,
+- the default [MathJax](https://www.mathjax.org) font for mathematics symbols and formulas.
 
 I did not include all the files of their distribution for performance reasons.
 
 ## about the blog engine
 
-This is a a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com) which can be used as a template. It's a fork of the [{{pkg.engineauthor.name}}]({{pkg.enginerepository.url}}) _Eleventy Netlify Boilerplate_.
+This is a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com) which can be used as a template. It's a fork of the [{{pkg.engineauthor.name}}]({{pkg.enginerepository.url}}) _Eleventy Netlify Boilerplate_.
 
 Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
 
