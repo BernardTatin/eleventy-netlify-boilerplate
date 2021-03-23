@@ -5,9 +5,9 @@ date: 2021-03-14T01:23:39.598Z
 author: Bernard Tatin
 summary: Why do I want to play with Nuklear in C?
 tags:
-- coding
-- C
-- Nuklear
+  - coding
+  - C
+  - Nuklear
 ---
 
 Because I have learned **C** on books before I could use a compiler - no, Internet was not everywhere, and phones were used to talk - **C** is a language I really love, even today, even after gloomy nights searching obscure bugs in memory management.
