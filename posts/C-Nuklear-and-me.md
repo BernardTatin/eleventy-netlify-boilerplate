@@ -1,5 +1,5 @@
 ---
-title: My first post: C, Nuklear and me
+title: For my first post, C, Nuklear and me
 metaDescription: Why do I want to play with Nuklear in C?
 date: 2021-03-14T01:23:39.598Z
 author: John Appleseed
