@@ -27,29 +27,25 @@
     font-family: 'Header';
     font-style:  normal;
     font-weight: normal;
-    src: url("{{pkg.fonts.basedir}}/Inter/Inter-ExtraBold.woff2") format("woff2"),
-    url("{{pkg.fonts.basedir}}/Inter/Inter-ExtraBold.woff") format("woff");
+    src: url("{{pkg.fonts.basedir}}/Jost/Jost-800-Hevy.otf");
 }
 @font-face {
     font-family: 'Header';
     font-style:  italic;
     font-weight: normal;
-    src: url("{{pkg.fonts.basedir}}/Inter/Inter-ExtraBoldItalic.woff2") format("woff2"),
-    url("{{pkg.fonts.basedir}}/Inter/Inter-ExtraBoldItalic.woff") format("woff");
+    src: url("{{pkg.fonts.basedir}}/Jost/Jost-800-HevyItalic.otf");
 }
 @font-face {
     font-family: 'Header';
     font-style:  normal;
     font-weight: bold;
-    src: url("{{pkg.fonts.basedir}}/Inter/Inter-Black.woff2") format("woff2"),
-    url("{{pkg.fonts.basedir}}/Inter/Inter-Black.woff") format("woff");
+    src: url("{{pkg.fonts.basedir}}/Jost/Jost-900-Black.otf");
 }
 @font-face {
     font-family: 'Header';
     font-style:  italic;
     font-weight: bold;
-    src: url("{{pkg.fonts.basedir}}/Inter/Inter-BlackItalic.woff2") format("woff2"),
-    url("{{pkg.fonts.basedir}}/Inter/Inter-BlackItalic.woff") format("woff");
+    src: url("{{pkg.fonts.basedir}}/Jost/Jost-900-BlackItalic.otf");
 }
 
 
