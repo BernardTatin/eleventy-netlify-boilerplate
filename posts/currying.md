@@ -16,11 +16,17 @@ tags:
 Wikipedia introduit le concept de curryfication de cette manière:
 
 > In _mathematics_ and _computer science_, **currying** is the technique of ***converting*** a function that takes multiple arguments into a sequence of functions that each take a single argument. For example, currying a function \\(f\\) that takes three arguments creates three functions:
-$$x = f ( a , b , c )$$
+> $$
+> x = f ( a , b , c )
+> $$
 > becomes:
-$$h = g ( a ), i = h ( b ), x = i ( c )$$
+> $$
+> h = g ( a ), i = h ( b ), x = i ( c )
+> $$
 > or called in sequence:
-$$x = g ( a ) ( b ) ( c )$$
+> $$
+> x = g ( a ) ( b ) ( c )
+> $$
 
 <cite>
     <a href="https://en.wikipedia.org/wiki/Currying">Wikipedia: Currying</a>
